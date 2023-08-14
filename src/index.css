@@ -1,3 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nav-link {
+  @apply flex w-32 justify-center items-center py-3 gap-2 capitalize border-b border-solid border-transparent cursor-pointer;
+}
+
+.nav-link a {
+  @apply text-[#667085] text-lg not-italic font-normal font-lexend leading-normal;
+}
+
+.nav-link:hover {
+  @apply border-dark-fg-primary;
+}
+
+.nav-link:hover a {
+  @apply [text-shadow:_0px_4px_4px_rgba(0,_0,_0,_0.25)] text-[#344054];
+}
+
+.nav-link-active {
+  @apply border-dark-fg-primary;
+}
+
+.nav-link-active a {
+  @apply text-[#344054] text-lg not-italic font-normal leading-normal font-lexend [text-shadow:_0px_4px_4px_rgba(0,_0,_0,_0.25)];
+}

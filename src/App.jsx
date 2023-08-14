@@ -3,10 +3,12 @@ import Navbar from './components/Navbar'
 
 const App = () => {
   return (
-    <div
-      className='container mx-auto'
-    >
-      <Navbar />
+    <div>
+      <header
+        className='bg-white-fg-primary '
+      >
+        <Navbar />
+      </header>
     </div>
   )
 }
