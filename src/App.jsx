@@ -3,9 +3,11 @@ import Navbar from './components/Navbar'
 
 const App = () => {
   return (
-    <div>
+    <div
+      className='min-h-[15000px]'
+    >
       <header
-        className='bg-white-fg-primary '
+        className='bg-white-fg-primary'
       >
         <Navbar />
       </header>

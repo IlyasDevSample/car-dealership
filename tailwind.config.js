@@ -8,6 +8,7 @@ module.exports = {
       colors: {
         'blue-fg-primary': '#1A89EC',
         'gray-fg-primary': '#98A2B3',
+        'gray-fg-secondary': '#E4E7EC',
         'white-fg-primary': '#F2F4F7',
         'dark-fg-primary': '#021E35',
       },

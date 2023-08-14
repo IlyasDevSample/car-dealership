@@ -5,7 +5,7 @@
 @tailwind utilities;
 
 .nav-link {
-  @apply flex w-32 justify-center items-center py-3 gap-2 capitalize border-b border-solid border-transparent cursor-pointer;
+  @apply flex w-32 justify-start lg:justify-center items-center py-3 gap-8 lg:gap-2 capitalize border-b border-solid border-transparent cursor-pointer;
 }
 
 .nav-link a {
@@ -26,4 +26,8 @@
 
 .nav-link-active a {
   @apply text-[#344054] text-lg not-italic font-normal leading-normal font-lexend [text-shadow:_0px_4px_4px_rgba(0,_0,_0,_0.25)];
+}
+
+body {
+  @apply overflow-x-hidden;
 }
