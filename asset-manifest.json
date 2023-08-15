@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/car-dealership/static/css/main.1eca3fd4.css",
+    "main.css": "/car-dealership/static/css/main.b945e3d7.css",
     "main.js": "/car-dealership/static/js/main.b1faa75f.js",
     "static/media/car.svg": "/car-dealership/static/media/car.75bc1611e3c0e497c7951cb9909683f6.svg",
     "index.html": "/car-dealership/index.html",
     "static/media/brand-logo.svg": "/car-dealership/static/media/brand-logo.f4b0edb5be642b41e968792e1e0dc8ce.svg",
-    "main.1eca3fd4.css.map": "/car-dealership/static/css/main.1eca3fd4.css.map",
+    "main.b945e3d7.css.map": "/car-dealership/static/css/main.b945e3d7.css.map",
     "main.b1faa75f.js.map": "/car-dealership/static/js/main.b1faa75f.js.map"
   },
   "entrypoints": [
-    "static/css/main.1eca3fd4.css",
+    "static/css/main.b945e3d7.css",
     "static/js/main.b1faa75f.js"
   ]
 }
