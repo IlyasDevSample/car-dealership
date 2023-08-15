@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className='flex justify-between items-center container mx-auto px-6 py-9'
+      className='flex justify-between items-center container mx-auto px-4 md:px-6 py-9'
     >
       <a
         className='flex items-center gap-3'
