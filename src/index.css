@@ -35,3 +35,7 @@ body {
 .bg-gradient {
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) -20%, rgba(0, 0, 0, 0.69) 59.31%, #000 100%);
 }
+
+.about-btn {
+  @apply inline-flex justify-center items-center gap-2 text-sm sm:text-base py-2 px-3 sm:py-3 sm:px-5 bg-light-dark-fg-primary
+}
