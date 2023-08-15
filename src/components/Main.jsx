@@ -4,7 +4,7 @@ import { RiSearchLine } from 'react-icons/ri'
 const Main = () => {
   return (
     <div
-      className='min-h-screen 2xl:min-h-[calc(100vh-125px)] flex flex-col justify-between items-start container mx-auto px-6'
+      className='min-h-screen 2xl:min-h-[calc(100vh-125px)] flex flex-col justify-between items-start container mx-auto px-4 md:px-6'
     >
       <div>
         <h2>
