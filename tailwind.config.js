@@ -18,11 +18,6 @@ module.exports = {
       fontFamily: {
         'lexend': ['Lexend', 'sans-serif'],
       },
-      screens: {
-        '2xl': '1920px',
-        '3xl': '2860px',
-        '4xl': '3840px',
-      },
     },
   },
   plugins: [],
