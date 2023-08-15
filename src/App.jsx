@@ -8,7 +8,7 @@ const App = () => {
       className='min-h-[15000px]'
     >
       <header
-        className='bg-white-fg-primary'
+        className='bg-white-fg-primary relative'
       >
         <Navbar />
         <Main />
