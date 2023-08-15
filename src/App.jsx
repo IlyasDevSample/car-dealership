@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './components/Navbar'
+import Main from './components/Main'
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
         className='bg-white-fg-primary'
       >
         <Navbar />
+        <Main />
       </header>
     </div>
   )
