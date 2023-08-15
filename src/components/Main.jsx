@@ -9,16 +9,16 @@ const Main = () => {
       <div
         className='relative mb-8'
       >
-        <h2 className='text-light-dark-fg-primary font-lexend leading-snug 2xl:leading-normal text-7xl 2xl:text-[80px] not-italic font-semibold max-w-[719px] capitalize z-[1] relative'>
+        <h2 className='text-light-dark-fg-primary font-lexend text-[40px] md:text-[48px] lg:text-[72px] 2xl:text-[80px] not-italic font-semibold max-w-[719px] capitalize z-[1] relative leading-snug 2xl:leading-normal'>
           best car for your performance
         </h2>
-        <p className='text-gray-fg-primary z-[1] text-xl 2xl:text-2xl not-italic font-normal font-lexend leading-normal 2xl:max-w-[660px] max-w-[560px] mt-5 2xl:mt-6 pl-2 relative'>
+        <p className='text-gray-fg-primary z-[1] text-lg md:text-xl 2xl:text-2xl not-italic font-normal font-lexend leading-normal 2xl:max-w-[660px] max-w-[560px] mt-5 2xl:mt-6 md:pl-2 relative'>
           We will serve you to get dream car here easily and quickly that is reliable
         </p>
         <div
-          className='flex items-center mt-5 2xl:mt-6 max-w-[459px] pl-2 w-[459px]'
+          className='flex items-center mt-5 2xl:mt-6 max-w-[459px] md:pl-2 md:w-[459px]'
         >
-          <input type="text" className='z-[1] py-[8px] pl-[32px] w-[344px] rounded-l-[10px] border border-gray-fg-secondary outline-none' placeholder='Search' />
+          <input type="text" className='z-[1] py-[8px] pl-[32px] w-[300px] sm:w-[344px] rounded-l-[10px] border border-gray-fg-secondary outline-none' placeholder='Search' />
           <button
             className='z-[1] p-3 bg-blue-fg-primary rounded-r-[10px] text-white-fg-primary'
           >
@@ -27,16 +27,16 @@ const Main = () => {
         </div>
 
         <div
-          className='w-[392px] h-[392px] flex-shrink-0 rounded-full bg-blue-fg-primary bg-opacity-20 blur-[200px] absolute top-[35px] left-[100px]'
+          className='w-[292px] h-[292px] md:w-[392px] md:h-[392px] flex-shrink-0 rounded-full bg-blue-fg-primary bg-opacity-20 blur-[200px] absolute top-[35px] left-[100px]'
 
         >
         </div>
       </div>
 
       <div
-        className='pl-2 flex flex-col flex-grow justify-center'
+        className='sm:pl-2 flex flex-col flex-grow justify-center'
       >
-        <h3 className='text-light-dark-fg-primary text-4xl not-italic font-normal leading-normal font-lexend capitalize'>
+        <h3 className='text-light-dark-fg-primary text-3xl sm:text-[36px] not-italic font-normal leading-normal font-lexend capitalize'>
           BMW series 3 BLUE
         </h3>
 
@@ -56,7 +56,7 @@ const Main = () => {
         </div>
 
         <div className='h-0 flex-shrink-0 mt-12 relative'>
-          <svg className='stroke-current text-gray-fg-primary w-[560px]' strokeWidth='1' stroke='#98A2B3'>
+          <svg className='stroke-current text-gray-fg-primary w-full md:w-[560px]' strokeWidth='1' stroke='#98A2B3'>
             <svg xmlns="http://www.w3.org/2000/svg" width="560" height="2" viewBox="0 0 560 2" fill="none">
               <path d="M0 1H560" stroke="#98A2B3" strokeWidth="0.7" />
             </svg>
