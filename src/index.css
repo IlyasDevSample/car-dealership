@@ -31,3 +31,7 @@
 body {
   @apply overflow-x-hidden;
 }
+
+.bg-gradient {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) -20%, rgba(0, 0, 0, 0.69) 59.31%, #000 100%);
+}

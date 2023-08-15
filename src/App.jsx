@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import Main from './components/Main'
+import About from './components/About'
 
 const App = () => {
   return (
@@ -13,6 +14,9 @@ const App = () => {
         <Navbar />
         <Main />
       </header>
+      <section className='bg-white-fg-secondary'>
+        <About />
+      </section>
     </div>
   )
 }
