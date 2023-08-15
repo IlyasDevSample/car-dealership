@@ -42,7 +42,7 @@ const Navbar = () => {
       </a>
 
       <div
-        className={`fixed top-0 left-0 right-0 bottom-0 ${isNavOpen ? "flex" : "hidden"} justify-start items-start bg-white-fg-primary lg:static lg:bg-transparent lg:flex lg:justify-between lg:items-center lg:gap-0`}
+        className={`fixed top-0 w-screen lg:w-fit transition-all bottom-0 ${isNavOpen ? "right-0" : "right-[-100vw]"} flex justify-start items-start bg-white-fg-primary lg:static lg:bg-transparent lg:flex lg:justify-between lg:items-center lg:gap-0`}
       >
         <div
           className='lg:hidden absolute top-[32px] right-0 p-5'
