@@ -18,7 +18,7 @@ const Navbar = () => {
 
   return (
     <nav
-      className='flex justify-between items-center container mx-auto px-4 py-9'
+      className='flex justify-between items-center container mx-auto px-6 py-9'
     >
       <a
         className='flex items-center gap-3'
@@ -45,7 +45,7 @@ const Navbar = () => {
         className={`fixed top-0 w-screen lg:w-fit transition-all bottom-0 ${isNavOpen ? "right-0" : "right-[-100vw]"} flex justify-start items-start bg-white-fg-primary lg:static lg:bg-transparent lg:flex lg:justify-between lg:items-center lg:gap-0`}
       >
         <div
-          className='lg:hidden absolute top-[32px] right-0 p-5'
+          className='lg:hidden absolute top-[32px] right-0 px-6 pt-4'
         >
           <GrClose className='text-2xl text-gray-fg-primary cursor-pointer ' onClick={() => setIsNavOpen((prev) => !prev)} />
         </div>
