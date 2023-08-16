@@ -40,7 +40,7 @@ const Main = () => {
       <div
         className='w-full h-[200px] md:w-[300px] md:h-full flex-shrink-0 md:bg-blue-fg-primary md:bg-opacity-[0.07] md:absolute md:bottom-0 md:top-0 transform lg:translate-x-[-80%] lg:left-[80%] md:translate-x-[-95%] md:left-[95%]'
       >
-        <div className='absolute left-[40%] translate-x-[-40%] bottom-[10%] transform  md:w-[300px] md:h-[500px] lg:w-[600px] lg:h-[500px] bg-no-repeat bg-center bg-contain 2xl:bottom-[30%] w-[300px] h-full' style={{ backgroundImage: `url(${car})` }}>
+        <div className='absolute left-[40%] translate-x-[-40%] bottom-[10%] transform  md:w-[300px] md:h-[500px] lg:w-[600px] lg:h-[500px] bg-no-repeat bg-center bg-contain 2xl:bottom-[15%] w-[300px] h-full' style={{ backgroundImage: `url(${car})` }}>
           <div
             className='hidden md:block absolute left-[45%] translate-x-[-45%] top-[40px] transform'
           >
@@ -55,7 +55,7 @@ const Main = () => {
 
         </div>
         <div
-          className='flex-row gap-10 absolute bottom-[146px] lg:bottom-[48px] left-[50%] translate-x-[-50%] 2xl:bottom-[98px] 3xl:bottom-[248px] hidden md:flex'
+          className='flex-row gap-10 absolute bottom-[146px] lg:bottom-[48px] left-[50%] translate-x-[-50%] 2xl:bottom-[80px] hidden md:flex'
         >
           <div className='w-8 h-8 flex-shrink-0 cursor-pointer'
           >

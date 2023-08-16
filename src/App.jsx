@@ -6,7 +6,7 @@ import About from './components/About'
 const App = () => {
   return (
     <div
-      className='min-h-[15000px]'
+      className=''
     >
       <header
         className='bg-white-fg-primary relative'
