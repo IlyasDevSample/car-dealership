@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from './components/Navbar'
 import Main from './components/Main'
 import About from './components/About'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <section className='bg-white-fg-secondary'>
         <About />
       </section>
+      <Footer />
     </div>
   )
 }
